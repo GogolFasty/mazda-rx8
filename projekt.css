@@ -18,6 +18,7 @@
     display: flex;
     border-radius: 20px;
     position: sticky;
+    top: 0px;
     box-shadow: 0px 7px 5px rgba(255, 255, 255, 0.781);
 }
 .head{
@@ -59,16 +60,16 @@ h1:hover{
     overflow: hidden;
     border-radius: 10px;
 }
-.nav a{
+.nav a, .goup a{
     color: white;
     text-decoration: none;
     font-weight: bold;
-    
+    font-size: 1rem;
 }
-.nav a:hover{
+.nav a:hover, .goup a:hover{
     color: red;
 }
-.nav li:hover{
+.nav li:hover, .goup a:hover{
     background-color: rgba(255, 255, 255, 0.521);
     border: 1px dotted red;
 }
@@ -163,3 +164,9 @@ video{
     text-align: center;
     box-shadow: 0px -7px 5px rgba(255, 255, 255, 0.781);
 }
+.goup {
+    text-align: center;
+    margin: 30px auto;
+    
+}
+
